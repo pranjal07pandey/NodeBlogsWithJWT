@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+{{>header}}
+<body>
+    {{>nav}}
+
+    <div class="container">
+        <h1 style="text-align: center;">Add new Blog</h1>
+
+<form>
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" name="title" required>
+  </div>
+
+  <div class="form-group">
+    <label for="body">Body</label>
+    <textarea class="form-control" name="body" required></textarea>
+  </div>
+
+  <div class="form-group">
+    <label for="snippet">Snippet</label>
+    <input type="text" class="form-control" name="snippet" required>
+  </div>
+
+  <div class="form-group">
+    <label for="image">Picture</label>
+    <br>
+     <input type="file" name="image">
+  </div>
+
+
+    <input type="submit" class="btn btn-primary" value="Submit">
+
+</form>
+    </div>
+
+    {{>footer}}
+</body>
+</html>

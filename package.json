@@ -1,0 +1,17 @@
+{
+  "name": "nodeblogwithjwt",
+  "version": "1.0.0",
+  "description": "a node js blog app with jwt authentication",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pranjal",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.1",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4"
+  }
+}
